@@ -45,7 +45,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 10
+  controlID: 65
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,8 +64,8 @@ MonoBehaviour:
     y: 0
     width: 393
     height: 1051
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -90,8 +90,8 @@ MonoBehaviour:
     y: 0
     width: 377
     height: 603
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 11
+  controlID: 66
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 12
+  controlID: 67
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -404,18 +404,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Editor
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Editor
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\VirZoom\Documents\Virzoom_2018
+  m_LastProjectPath: C:\Users\VirZoom\Documents\GitHub\VirZoombies\Virzoom_2018
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 38}
-    m_SelectedIDs: 6a390000
-    m_LastClickedID: 14698
+    m_SelectedIDs: ec250000
+    m_LastClickedID: 9708
     m_ExpandedIDs: 00000000ec250000902600009e2800007629000010340000223a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -471,7 +471,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -559,10 +559,10 @@ MonoBehaviour:
     width: 375
     height: 582
   m_TreeViewState:
-    scrollPos: {x: 0, y: 1931}
-    m_SelectedIDs: 6a070000
-    m_LastClickedID: 0
-    m_ExpandedIDs: 50bfffffe8fbffff00000000c0e90600c4e906008eea060026ff0600a617070016180700542c0700aa330700423f07005647070070570700f6580700fa5e07004c6007000e690700726907009c740700b67b0700
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: fe540000
+    m_LastClickedID: 21758
+    m_ExpandedIDs: e8fbffff00000000fe5a0000a65e0000606a0000326c0000bc6f000020710000f0770000409e0000e49e0000669f000054a40000b4a4000032a90000dcac000090b20000e0c7000010cf0000d4d00000f0e60000a6ee000072f0000066f40000eaf60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -617,9 +617,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 700.1434, y: -8.534731, z: 22.873266}
+    m_Target: {x: 2142.847, y: -22.551376, z: -5.4601336}
     speed: 2
-    m_Value: {x: 700.1434, y: -8.534731, z: 22.873266}
+    m_Value: {x: 2142.847, y: -22.551376, z: -5.4601336}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -642,13 +642,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.2583081, y: 0.2625382, z: -0.07317674, w: -0.9268203}
+    m_Target: {x: -0.08775231, y: -0.7193803, z: 0.09244243, w: -0.68282205}
     speed: 2
-    m_Value: {x: -0.2583081, y: 0.2625382, z: -0.07317674, w: -0.9268203}
+    m_Value: {x: -0.08775231, y: -0.7193803, z: 0.09244243, w: -0.68282205}
   m_Size:
-    m_Target: 44.81805
+    m_Target: 147.53438
     speed: 2
-    m_Value: 44.81805
+    m_Value: 147.53438
   m_Ortho:
     m_Target: 0
     speed: 2
