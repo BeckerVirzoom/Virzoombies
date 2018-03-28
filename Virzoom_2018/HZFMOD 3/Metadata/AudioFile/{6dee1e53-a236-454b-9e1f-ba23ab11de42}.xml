@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{6dee1e53-a236-454b-9e1f-ba23ab11de42}">
+        <property name="assetPath">
+            <value>laurenVO_Audio 6-St_1.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>15.139410430839002</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{e4ffd6d3-4d02-406c-a97a-1b12c095e1f9}</destination>
+        </relationship>
+    </object>
+</objects>

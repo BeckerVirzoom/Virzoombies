@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{82a3ff25-51fc-45e1-bdc5-63049270332c}">
+        <property name="assetPath">
+            <value>HFZsong2.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>64</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{e4ffd6d3-4d02-406c-a97a-1b12c095e1f9}</destination>
+        </relationship>
+    </object>
+</objects>

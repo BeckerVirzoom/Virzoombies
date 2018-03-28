@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{15020019-2bc7-4f9a-9f5a-234d3249db3e}">
+        <property name="assetPath">
+            <value>ZedBig_dead.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.3017291666666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{e4ffd6d3-4d02-406c-a97a-1b12c095e1f9}</destination>
+        </relationship>
+    </object>
+</objects>

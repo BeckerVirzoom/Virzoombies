@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{0929592A-58B2-F6FB-D0B5-D2F4FA9C7136}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_5;UNITY_5_6;UNITY_5;UNITY_ANALYTICS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AudioBank.cs" />
+     <Compile Include="Assets\Die_Panel.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudio.cs" />
+     <Compile Include="Assets\GoogleVR\Scripts\Audio\FmodGvrAudioRoom.cs" />
+     <Compile Include="Assets\Level1.cs" />
+     <Compile Include="Assets\MainMeanu.cs" />
+     <Compile Include="Assets\Scripts\Fat_ZombieAI.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\ZombieAI.cs" />
+     <Compile Include="Assets\Scripts\alphaAI.cs" />
+     <Compile Include="Assets\Scripts\sounds.cs" />
+     <Compile Include="Assets\StartGame.cs" />
+     <Compile Include="Assets\VZ\Scripts\core\VZColliderInfo.cs" />
+     <Compile Include="Assets\VZ\Scripts\core\VZController.cs" />
+     <Compile Include="Assets\VZ\Scripts\core\VZControllerMap.cs" />
+     <Compile Include="Assets\VZ\Scripts\core\VZJumptest.cs" />
+     <Compile Include="Assets\VZ\Scripts\core\VZPlayer.cs" />
+     <Compile Include="Assets\VZ\Scripts\core\VZPlugin.cs" />
+     <Compile Include="Assets\VZ\Scripts\core\VZSetBike.cs" />
+     <Compile Include="Assets\VZ\Scripts\test\VZBikeAnim.cs" />
+     <Compile Include="Assets\VZ\Scripts\test\VZBikeTest.cs" />
+     <Compile Include="Assets\VZPedal.cs" />
+     <Compile Include="Assets\Zombies\Zombies_Working100\FatZombie Prefab\shotdown.cs" />
+     <Compile Include="Assets\_scripts\AttemptPurchase.cs" />
+     <Compile Include="Assets\_scripts\ConfirmPurchase.cs" />
+     <Compile Include="Assets\_scripts\DeathScript.cs" />
+     <Compile Include="Assets\_scripts\DistanceData.cs" />
+     <Compile Include="Assets\_scripts\Dontdestroy.cs" />
+     <Compile Include="Assets\_scripts\EnableDisableInput.cs" />
+     <Compile Include="Assets\_scripts\GameManager.cs" />
+     <Compile Include="Assets\_scripts\HandlePurchaseID.cs" />
+     <Compile Include="Assets\_scripts\HideMenu.cs" />
+     <Compile Include="Assets\_scripts\KeyBindings.cs" />
+     <Compile Include="Assets\_scripts\LoadOtherMenu.cs" />
+     <Compile Include="Assets\_scripts\LoadRandomScene.cs" />
+     <Compile Include="Assets\_scripts\MainMenu.cs" />
+     <Compile Include="Assets\_scripts\MenuButton.cs" />
+     <Compile Include="Assets\_scripts\MenuControls.cs" />
+     <Compile Include="Assets\_scripts\MenuNavigation.cs" />
+     <Compile Include="Assets\_scripts\OpenShop.cs" />
+     <Compile Include="Assets\_scripts\PaintUpgrade.cs" />
+     <Compile Include="Assets\_scripts\PlayCredits.cs" />
+     <Compile Include="Assets\_scripts\PowerUpList.cs" />
+     <Compile Include="Assets\_scripts\PurchasableItem.cs" />
+     <Compile Include="Assets\_scripts\QuitButton.cs" />
+     <Compile Include="Assets\_scripts\RandomChunkLoader.cs" />
+     <Compile Include="Assets\_scripts\ReloadMenuScene.cs" />
+     <Compile Include="Assets\_scripts\SaveLoadManager.cs" />
+     <Compile Include="Assets\_scripts\Shop Test.cs" />
+     <Compile Include="Assets\_scripts\Spawn_Start.cs" />
+     <Compile Include="Assets\_scripts\VZBounce.cs" />
+     <Compile Include="Assets\_scripts\VZpowerups.cs" />
+     <Compile Include="Assets\_scripts\VirZoomInputModule.cs" />
+     <Compile Include="Assets\_scripts\bullet.cs" />
+     <Compile Include="Assets\_scripts\controls.cs" />
+     <Compile Include="Assets\_scripts\shop\TheShop.cs" />
+     <Compile Include="Assets\_scripts\ui\BloodSplatterUI.cs" />
+     <Compile Include="Assets\_scripts\ui\DisplayWinMessage.cs" />
+     <Compile Include="Assets\_scripts\ui\MPHGauge.cs" />
+     <Compile Include="Assets\_ui\_shaders\UIApplyOverlayShader.cs" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\NOTES ABOUT CALORIE COUNTER.txt" />
+     <None Include="Assets\VZ\Shaders\NoZ.shader" />
+     <None Include="Assets\VZ\Shaders\NoZFont.shader" />
+     <None Include="Assets\_ui\_shaders\RenderOnTop.shader" />
+     <None Include="Assets\VZ\README.txt" />
+     <None Include="Assets\VZ\Resources\VZControllerMap.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity 5.6.5/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1A4AF30C-D862-4384-D9A0-BCD86B5AEDA1}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

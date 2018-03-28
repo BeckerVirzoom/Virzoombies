@@ -1,0 +1,11 @@
+{c9d568e0-4a32-4f99-aca7-f567bc0db30f} event:/BikeSpeed
+{bc29e31f-c847-4bfa-85bc-ba7982cc6140} event:/Damage
+{7adb97aa-93a7-494d-b94a-a62d403c0b21} event:/DMGVO
+{9e8f4683-7512-4a26-b918-2dfff9e4cbd1} event:/Music (2)
+{772261c2-234e-4b8f-a036-342f8becd6df} event:/Music
+{a4828803-7766-4a77-a1ca-579983288e22} event:/ThumpPick
+{07260bf3-2fb1-4d97-955b-559cf255ca5d} event:/VO
+{826d4388-abc1-4bc4-aa7c-bb043a3dbbd5} event:/Zombience
+{8c2076ba-8876-496f-a681-f0e731c776e0} bus:/
+{e132a7e4-ad24-4529-b66b-e41604248a7d} bus:/Reverb
+{5f213240-fb41-42d3-a199-88b660df531a} bank:/Master Bank

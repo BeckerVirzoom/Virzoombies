@@ -1,0 +1,2 @@
+Calorie Counter depends on Heart Rate Counter
+Heart Rate Counter depends on hands being on handlebars

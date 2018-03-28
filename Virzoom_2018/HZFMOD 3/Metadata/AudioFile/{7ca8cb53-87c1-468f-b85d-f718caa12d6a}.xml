@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.09.00">
+    <object class="AudioFile" id="{7ca8cb53-87c1-468f-b85d-f718caa12d6a}">
+        <property name="assetPath">
+            <value>bike_normal_loop.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.3924166666666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{e4ffd6d3-4d02-406c-a97a-1b12c095e1f9}</destination>
+        </relationship>
+    </object>
+</objects>

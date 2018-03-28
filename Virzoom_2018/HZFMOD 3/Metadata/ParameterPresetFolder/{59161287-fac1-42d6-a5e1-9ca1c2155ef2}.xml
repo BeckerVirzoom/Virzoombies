@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPresetFolder" id="{59161287-fac1-42d6-a5e1-9ca1c2155ef2}">
+        <property name="name">
+            <value>BikeSpeed</value>
+        </property>
+        <relationship name="folder">
+            <destination>{52ee398e-c5f6-03d7-22ff-39374a8dbd2e}</destination>
+        </relationship>
+    </object>
+</objects>
